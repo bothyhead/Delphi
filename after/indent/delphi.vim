@@ -5,10 +5,10 @@
 " URL:          http://code.google.com/p/new-vim-pascal-indent-file/
 
 " Only load this indent file when no other was loaded.
-if exists("b:did_indent")
+if exists("b:did_pascal_indent")
     finish
 endif
-let b:did_indent = 1
+let b:did_pascal_indent = 1
 
 " Some of the indentexpr might be useless, but I'm just too tired. Adding them
 " won't be wrong.
